@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Main</title>
+		<link rel="stylesheet" href="css/reset.css"/>
+		<style type="text/css">
+
+            @import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+            *{
+                font-family: 'Jua', sans-serif;
+            }
+
+		
+            #logo { position: relative;
+                    margin: 0 auto;
+            }
+
+		
+		
+			#hgroup{ position: absolute;
+					 left: 5px; top:10px;}
+		
+			ul{overflow:hidden;}
+			li{float: left; list-style:none;}
+			
+			#menu{position: absolute;
+                margin: 10px;
+				right: 0; top:3px;}
+		
+                #menu ul li{border-right: 1px solid gray;
+					 }
+		
+			#menu ul li:last-child{border-right: none; }
+			
+			#menu ul li a{display:block; padding: 3px 10px; color:#666; text-decoration: none;}
+			#menu ul li a:hover{background: rgba(78, 103, 173, 0.877);
+							  color:#fff;}
+		
+		
+			
+							  footer {
+            background-color: #3c3935;
+        }
+        
+        .foo_div1 {
+            text-align: center;
+        }
+        
+        .foo_div1 span {
+            font-size: 15px;
+            color: white;
+        }
+        
+        .foo_div1 p {
+            margin-top: 5px;
+            color: white;
+        }
+					  
+		
+		</style>
+		
+	</head>
+	<body>
+	
+        <div>
+            <div id="logo">
+                <a href="main.html"><img src="./img/logo.png"></a>
+
+            </div>
+
+            <div id="menu">
+				<ul>
+					<li><a href="abebe.html" target="if_a">About Bebe </a></li>
+					<li><a href="room.html" target="if_a">Room Picture</a></li>
+					<li><a href="reservation.html" target="if_a">Reservation</a></li>
+					<li><a href="com.html" target="if_a">Community</a></li>
+				</ul>
+			</div>
+        </div>
+
+        
+        <iframe src="picture.html" width="100%" height="1000px"  name="if_a" scrolling="no" frameborder="0" 
+        ></iframe>
+	
+		<div id="page">
+			
+			<footer>
+				<div class="foo_div1">
+					<span>상호명 : 베베풀빌라</span> <span>  |  </span>
+					<span>대표 : 권영민</span> <span>  |  </span>
+					<span>사업자등록번호 :851-54-00304</span> <span>  |  </span>
+					<p>주소 : 인천광역시 강화군 길상면 동검길 167-16, 2동</p>
+				
+					<span>전화번호 : 010-9377-1165 [ 상담시간 am 10:00 ~ pm 5:00 ]</span><br>
+					<span>기업은행 01093771165 (예금주: 권영민)</span>
+				</div>
+			</footer>
+			
+		</div>
+		
+	</body>
+</html>

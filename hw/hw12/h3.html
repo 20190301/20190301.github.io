@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <script>
+            var eng = /[a-zA-Z]/;
+            var text = prompt("영문자를 입력하세요");
+            while(true){
+                
+                if(text == null){
+                alert("취소되었습니다.");
+                
+                } 
+                if(eng.test(text)){
+                    if(text.charAt(0) === text.charAt(0).toLocaleUpperCase()){
+                    alert("입력한 글자는 대문자 "+text+"입니다.");
+                }else{
+                    alert("입력한 글자는 소문자 "+text+"입니다.");
+                }
+
+                }else{
+                alert(text+"는 영문자가 아닙니다.");
+                }
+                
+                break;
+            }
+
+            
+            
+        </script>
+
+
+    </head>
+
+    <body>
+        
+       
+
+    </body>
+</html>

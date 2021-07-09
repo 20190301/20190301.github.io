@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <script src="jquery-3.6.0.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#soccer").click(function(){
+                    $("#img").html("<img src='./img/soccer.jpg' width='250px'>")
+                });
+           
+                $("#bs").click(function(){
+                    $("#img").html("<img src='./img/base.jpg'  width='250px'>")
+                });
+
+                $("#bkt").click(function(){
+                    $("#img").html("<img src='./img/basket.jpg'  width='250px'>")
+                });
+            })
+        </script>
+        <style>
+            #d1{
+                background-color: yellow;
+                width: 150px;
+                height: 100px;
+            }
+            #d2{
+                background-color: cadetblue;
+                width: 150px;
+                height: 100px;
+            }
+            #d3{
+                background-color: cyan;
+                width: 150px;
+                height: 100px;
+            }
+        </style>
+
+    </head>
+
+    <body>
+        
+        <h1>당신이 좋아하는 스포츠는?</h1>
+        </div>
+        <button id="soccer">프로축구</button>
+        <button id="bs">프로야구</button>
+        <button id="bkt">프로농구</button>
+        </div>
+       <div id="img"></div>
+
+    </body>
+</html>
